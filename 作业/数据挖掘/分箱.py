@@ -32,7 +32,7 @@ class Box_Smoothing:
         #返回分箱后的结果
         return array
     
-    #法一：按均值平滑，并返回离群点
+    #法一：按均值平滑
     def Smoothing_By_Mean(self):
         #得到分箱后的数据
         array = self.Bins()
@@ -47,7 +47,7 @@ class Box_Smoothing:
         print('--------按均值平滑法--------')
         print(array)
         
-    #法二：按中位数平滑
+    #法二：按中位数平滑，并返回离群点
     def Smoothing_By_Median(self):
         #得到分箱后的数据
         array = self.Bins()
