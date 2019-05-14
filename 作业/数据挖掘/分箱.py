@@ -83,15 +83,15 @@ class Box_Smoothing:
         diff = self.depth - 2
         #进行按边界值平滑，平滑差值小的边界值，如果左右边界差值相等，默认选择左边界值
         for col in range(1,diff+1):
-            t = array[:,col]          #取出当前列 
-            diff_left = abs(t-left)   #当前列与左边界的绝对差值
-            diff_right = abs(t-right) #当前列与右边界的绝对差值
+            cur_col = array[:,col]          #取出当前列 
+            diff_left = abs(cur_col-left)   #当前列与左边界的绝对差值
+            diff_right = abs(cur_col-right) #当前列与右边界的绝对差值
             #标记，如果当前列与左边界的差值 <= 当前列与右边界的差值，则标记为1，否则标记为0 
             flag = np.where(diff_left <= diff_right,1,0)
             #对当前列的每一个元素进行边界平滑
-            for idx in range(len(t)):
+            for idx in range(len(cur_col)):
                 #如果当前索引下标记为1，则向左边界值平滑，否则向右边界值平滑
-                t[idx] = left[idx] if flag[idx] == 1 else right[idx]
+                cur_col[idx] = left[idx] if flag[idx] == 1 else right[idx]
         #因为是原地操作，所以直接返回原数组即可
         print('--------按边界值平滑法--------')
         print(array)    
