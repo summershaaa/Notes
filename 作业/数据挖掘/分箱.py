@@ -24,8 +24,9 @@ class Box_Smoothing:
         #可能最后一个箱子数据不够，所以需要填充数据
         diff = bins*self.depth - length
         #填充若干个数据
-        for i in range(diff):
-            data.append(data[-1])
+        if diff > 0:
+            for i in range(diff):
+                data.append(data[-1])
             
         #构造分箱后的数组,维度为：(箱数，箱深) 
         array = np.array(self.data).reshape(bins,self.depth)
