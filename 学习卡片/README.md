@@ -1,7 +1,7 @@
 # 机器学习 (CS 229 Stanford)
 可得到 [English](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/en) -  [Español](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/es) -  [فارسی](https://stanford.edu/~shervine/l/fa/teaching/cs-229/cheatsheet-supervised-learning) -  [Français](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/fr) -  [한국어](https://stanford.edu/~shervine/l/ko/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks) -  [Português](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/pt) -  [Türkçe](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/tr) -  [中文](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/zh)
 
-## [资料来源](https://github.com/afshinea/stanford-cs-229-machine-learning)
+## [资料来源](https://github.com/afshinea/stanford-cs-229-machine-learning):https://github.com/afshinea/stanford-cs-229-machine-learning
 
 ## 内容
 #### VIP Cheatsheets
