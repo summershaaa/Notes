@@ -10,14 +10,14 @@
 ##### SQL:
 > MySQL的一些概念
 ##### Statemodels
-<a href = "http://www.statsmodels.org/stable/index.html">"Statemodels官网地址</a><br>
-<a href = "https://github.com/statsmodels/statsmodels/">"Statemodels Github地址</a>
+<a href = "http://www.statsmodels.org/stable/index.html">"Statemodels官网</a><br>
+<a href = "https://github.com/statsmodels/statsmodels/">"Statemodels Github</a>
 ##### Seaborn
-<a href = "http://seaborn.pydata.org/index.html">"Seaborn官网地址</a><br>
-<a href = "https://github.com/mwaskom/seaborn">"Seaborn Github地址</a>
+<a href = "http://seaborn.pydata.org/index.html">"Seaborn官网</a><br>
+<a href = "https://github.com/mwaskom/seaborn">"Seaborn Github</a>
 ##### Sklearn
-<a href = "https://scikit-learn.org/stable/">"Sklearn</a><br>
-<a href = "https://github.com/scikit-learn/scikit-learn">"Seaborn Github地址</a>
+<a href = "https://scikit-learn.org/stable/">"Sklearn官网</a><br>
+<a href = "https://github.com/scikit-learn/scikit-learn">"Seaborn Github</a>
 ##### 作业
 > 部分课堂作业
 ##### 学习卡片
