@@ -3,7 +3,7 @@
 #### 文件格式
 * .md ：markdown文件，用Typora([点击下载Typora](https://www.typora.io/))写的，图片地址可能有问题，所以一般会传上对应的pdf文件。
 * .pdf；markdown的pdf版本
-* .ipynb： jupyter notebook写的Python文件
+* .ipynb： jupyter notebook
 #### 各文件内容
 ##### GiveMeSomeCredit:
 > 信用风险评分系统
